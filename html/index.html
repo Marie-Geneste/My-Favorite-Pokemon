@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My favorite Pokémon</title>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1><a href="/">Pokédex</a></h1>
+        <div class="input">
+            <form action="/listDetails" method="get">
+            <input class="search_bar" type="text" name="nom" id="nom" placeholder="Entrez le nom du Pokémon">
+            <input class="button" type="submit" value="Chercher">
+            </form>
+        </div>
+        <nav>
+            <a class="nav_link" href="#">Liste</a>
+            
+            <a class="nav_link" href="#">Types</a>
+        </nav>
+        
+    </header>
+
+    <main class="main_details">
+        <div class="details_container">
+                <h2>Détails de Kadabra :</h2>
+                <div class="section">
+                    <img src="/styles/64.png" alt="Kadabra">
+                    <div class="article">
+                        <h3>#64 Kadabra</h3>
+                        <div class="tags">
+                            <span class="tags type--Psy">Psy</span>
+                        </div>
+                        <div class="stat">
+                            <h3>Statistiques</h3>
+                            <div class="stat_carac-global">
+                                <div class="stat_carac">
+                                    <span>PV</span>
+                                    <span class="stat_carac-number">40</span>
+                                    <div class="stat_carac-bar">
+                                        <div class="stat_carac-bar-pv"></div>
+                                    </div>
+                                </div> 
+                                <div class="stat_carac">
+                                    <span>Attaque</span>
+                                    <span class="stat_carac-number">35</span>
+                                    <div class="stat_carac-bar">
+                                        <div class="stat_carac-bar-attack"></div>
+                                    </div>
+                                </div>
+                                <div class="stat_carac">
+                                    <span>Défense</span>
+                                    <span class="stat_carac-number">30</span>
+                                    <div class="stat_carac-bar">
+                                        <div class="stat_carac-bar-def"></div>
+                                    </div>
+                                </div>
+                                <div class="stat_carac">
+                                    <span>Attaque spé</span>
+                                    <span class="stat_carac-number">120</span>
+                                    <div class="stat_carac-bar">
+                                        <div class="stat_carac-bar-attackspe"></div>
+                                    </div>
+                                </div>
+                                <div class="stat_carac">
+                                    <span>Défense spé</span>
+                                    <span class="stat_carac-number">70</span>
+                                    <div class="stat_carac-bar">
+                                        <div class="stat_carac-bar-defspe"></div>
+                                    </div>
+                                </div>
+                                <div class="stat_carac">
+                                    <span>Vitesse</span>
+                                    <span class="stat_carac-number">65</span>
+                                    <div class="stat_carac-bar">
+                                        <div class="stat_carac-bar-speed"></div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="return"><a href="/#">Revenir à la liste</a></div>
+            
+        </div>
+    
+    </main>
+    </div>
+</body>
+</html>
